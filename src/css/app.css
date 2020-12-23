@@ -1,0 +1,92 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'SF UI Text Bold';
+   
+}
+.container {
+    max-width: 1120px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#sec__hero {
+    height: 100vh;
+    background-color: #151B2B;
+    color: white;
+    
+}
+#sec__hero .container{
+  display: flex;
+  align-items: center;
+}
+
+#sec__hero h1 {
+    font-size: 46px;
+    line-height: 51px;
+    margin: 24px 0;
+   
+}
+#sec__hero h2 {
+    font-size: 25px;
+    font-family:'HK Grotesk SemiBold';
+    max-width: 487px;
+    line-height: 35px;
+    margin: 24px 0;
+}
+#sec__hero p {
+    font-family: 'SF UI Text Regular';
+    font-size: 16px;
+    color: #8686B2;
+    max-width: 500px;
+    line-height: 24px;
+    margin: 24px 0;
+    padding-left: 7px;
+}
+
+#sec__hero .logo  {
+    padding-top: 41px;
+    top:0;
+    position: absolute;
+}
+
+
+#sec__hero .sec__left .left__button a {
+
+    font-family: 'SF UI Text Semibold';
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 9px;
+    margin-right: 24px;
+    border-radius: 3px;
+
+}
+#sec__hero .sec__left .left__button a:first-child {
+    background-color:#454658;
+    
+}
+
+#sec__hero .sec__left .left__button a:last-child {
+
+background-color: #6578C0;
+}
+#sec__hero .sec__left .sec__title {
+    display:flex;
+}
+#sec__hero .sec__left .sec__title a {
+    background-color: blue;
+    width: 95px;
+    height:28px;
+    font-size: 16px;
+    margin: 24px 0;
+   
+}
