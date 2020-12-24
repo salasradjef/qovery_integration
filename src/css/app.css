@@ -221,9 +221,11 @@ background-color: #5D64D2;
 
 #sec__fourth {
     background-color:#F9F9FD ;
+    padding-bottom: 160px;
 }
 #sec__fourth .container_sm{
     max-width: 1060px;
+
 }
 #sec__fourth .container_sm .keypoint .k_1 {
     display:grid;
