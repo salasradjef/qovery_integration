@@ -9,7 +9,7 @@ h1 {
 }
 .container {
     max-width: 1120px;
-    width: 100%;
+   
     height: 100vh;
     margin: 0 auto;
 
@@ -58,7 +58,7 @@ h1 {
 }
 
 
-#sec__hero .sec__left .left__button a {
+ .sec__left .left__button a {
 
     font-family: 'SF UI Text Semibold';
     color:white;
@@ -82,6 +82,7 @@ background-color: #6578C0;
 #sec__hero .sec__left .sec__title {
     display:flex;
 }
+/*
 #sec__hero .sec__left .sec__title a {
     background-color: blue;
     width: 95px;
@@ -89,4 +90,55 @@ background-color: #6578C0;
     font-size: 16px;
     margin: 24px 0;
    
+}
+
+*/
+#sec__second {
+    background-color:#F9F9FD;
+}
+#sec__second .container_sm {
+  
+    
+   
+    
+    margin: 0 auto;
+
+    max-width: 910px;
+    height: 100%;
+    
+    padding: 100px 0;
+}
+#sec__second .container_sm .part1{
+    
+    text-align: center;
+    
+}
+#sec__second .container_sm .part1 h1 {
+    color: #454658;
+
+    font-family:'HK Grotesk Bold' ;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 35px;
+   
+}
+#sec__second .container_sm .part1 p {
+    font-family: 'SF UI Text Regular';
+    font-size: 16px;
+    color: #454658;
+    padding-top: 24px;
+    padding-right: 35px;
+    padding-left: 35px;  
+    margin-bottom: 35px; 
+
+   
+    
+}
+#sec__second .image__wraper {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec__second .image__wraper img {
+    width: 95%;
 }
